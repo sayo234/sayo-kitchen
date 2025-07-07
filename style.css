@@ -1,0 +1,60 @@
+body {
+  background-color: coral;
+}
+
+h1 {
+  color: darkred;
+  font-size: 40px;
+}
+
+h2 {
+  color: blue;
+  font-size: 50px;
+}
+
+ul {
+  color: brown;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+ol {
+  color: blueviolet;
+  font-size: 30px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 30px;
+  color: aquamarine;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 8px;
+}
+
+.div-one {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.div-two {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+.div-three {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
