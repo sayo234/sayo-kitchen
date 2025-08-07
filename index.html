@@ -34,10 +34,12 @@
    </header>
    <!-- header section stops here -->
 
+  <!-- main section starts -->
+    <main>
 <!--  -->
 
     <h1>Welcome to Sayo Kitchen</h1>
-    <h3>km 29 Lokoja Abuja Road</h3>
+    <h3>km 29 Lokoja-Abuja Road</h3>
     <hr />
 
     <h2>Menu</h2>
@@ -48,24 +50,29 @@
       <li>Ponmo</li>
       <li>Cowleg</li>
     </ol>
-
-    <img src="images/isiewu.jpg" alt="picture of isiewu" />
-    <img src="images/friedmeat.jpg" alt="picture of friedmeat" />
-    <img src="images/fish.jpg" alt="pic of drink" />
-    <img src="images/jollof.jpg" alt="pic of rice" />
-
+    <div class="food-div">
+      <img src="images/isiewu.jpg" alt="picture of isiewu" />
+     <img src="images/friedmeat.jpg" alt="picture of friedmeat" />
+      <img src="images/fish.jpg" alt="pic of drink" />
+      <img src="images/jollof.jpg" alt="pic of rice" />
+      <img src="/images/whiterice.jpg" alt="whiterice">
+      <img src="/images/amala and ewedu.jpg" alt="amala">
+      <img src="/images/salad.jpg" alt="">
+      <img src="/images/africa salad.jpg" alt="">
+    </div>
+    
     <h1>Drinks</h1>
     <ul>
       <li>maltina</li>
       <li>Champion</li>
       <li>Gulder</li>
     </ul>
-
-    <img src="images/fearless-drink.jpg" alt="" />
-    <img src="images/cocacola.jpg" alt="" />
-    <img src="images/malta-drink.jpg" alt="" />
-    <img src="images/pineapple-juice.jpg" alt="" />
-
+    <div class="food-div">
+       <img src="images/fearless-drink.jpg" alt="" />
+      <img src="images/cocacola.jpg" alt="" />
+      <img src="images/malta-drink.jpg" alt="" />
+      <img src="images/pineapple-juice.jpg" alt="" />
+    </div>
     <h2>Do you want to order a meal?</h2>
 
     <form action="">
@@ -84,14 +91,14 @@
 
     <br /><br />
 
-    <form action="submit">
+    <!-- <form action="submit">
       <label for="textarea">feedback</label>
       <textarea
         placeholder="what on your mind?"
         name=""
         id="textarea"
       ></textarea>
-    </form>
+    </form> -->
 
     
     <!-- The div element and css box model -->
@@ -99,13 +106,13 @@
 
     <!-- margin is called on any html element to apply external space between the element and its immediate neignbring elements.if there is no immediate or neighbooring elements around the div or element ,the margin called on it will be applied relative to the body of the page -->
 
-    <div class="div-one">
+    <!-- <div class="div-one">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, temporibus repellendus incidunt nisi neque explicabo, officiis pariatur iste optio amet corrupti. Commodi quasi molestiae assumenda asperiores, est sit officiis quia?</p>
     </div>
+ -->
+    <!-- <h4>This is heading two</h4> -->
 
-    <h4>This is heading two</h4>
-
-    <div class="div-two">
+    <!-- <div class="div-two">
       <div class="img-div">
         <img src="images/fish.jpg" alt="">
       </div>
@@ -113,10 +120,10 @@
         <h1>Discover Sayo Grilled Fish</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nihil sit voluptates magni. Vitae voluptas laboriosam temporibus quia ullam recusandae.</p>
       </div>
-    </div>
+    </div> -->
     <br><br><br><br>
 
-    <div class="republic-div">
+    <!-- <div class="republic-div">
        <div class="republic-text">
         <h1 class="address-h1">Find your closest restaurant</h1>
         <h1 class="franchise-h1">Become a Chicken Republic Franchise</h1>
@@ -124,10 +131,9 @@
        <div class="img-republic">
           <img src="images/chicken_republicbuilding.jpg" alt="">
         </div>
-       </div>
-    <br><br><br><br>
+       </div> -->
 
-    <div class="cabal-div">
+    <!-- <div class="cabal-div">
       <div class="safaricom-div">
         <div class="safaricom-image">
          <img src="images/safaricom-company.jpg" alt="">
@@ -154,15 +160,27 @@
                 <div class="cwg-text">
                   <h1 class="cwg-h1">inside cwg quiet rise:how a legacy harware vendor built a $46 billion it engine</h1>
                 </div>
-              </div>
+              </div> -->
 
+              <div class="counter">
+                <h1 class="counter-h1">feel free to set or cancel your order</h1>
+                <label id="countlabel" class="label"></label>
+               <div class="button">
+                  <button type="submit" id="decreasebtn">Decrease</button>
+                  <button type="submit" id="reset">Reset</button>
+                  <button type="submit" id="inreasebtn">Increase</button>
+               </div>
+              </div>
               
             </div>
           
     </div>
-    
+    </main>
+
+  <!-- main section end -->
       
 
     <br /><br /><br /><br /><br /><br />
+    <script src="index.js"></script>
   </body>
 </html>
