@@ -13,7 +13,7 @@ updatedisplay();
 
 function startcounting(changefn){
     changefn()
-    interval=setInterval(changefn,100);
+    interval=setInterval(changefn, 100);
 
 }
 
@@ -22,17 +22,17 @@ function stopcounting(){
 }
 
 function buttonHoldUpdate(button, changefn){
-    button.addEventlistner('mousedown', () => startcounting(changefn));
-    button.addEventlistner('mouseup', stopcounting);
-    button.addEventlistner("mouseleave", stopcounting);
+    button.addEventListener ('mousedown', () => startcounting(changefn));
+    button.addEventlistner ('mouseup', stopcounting);
+    button.addEventlistner ("mouseleave", stopcounting);
     
 
-    button.addEventlistner('touchstart',(e) =>{
+    button.addEventlistner ('touchstart',(e) =>{
         e.prevetdefault();
         startcounting(changefn);
     })
 
-    button.addEventlistner("touchend" ,startcounting);
+    button.addEventlistner("touchend" ,stopcounting);
     }
     
 
