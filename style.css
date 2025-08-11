@@ -73,9 +73,6 @@ ol li {
   margin-left: 20px;
 }
 
-main {
-  padding: 20px;
-}
 
 h1 {
   color: #ff0000;
@@ -357,8 +354,9 @@ button {
 
 
 .rider.text{
-  width: 540px;
-  height: 100vh;
+  width: 50%;
+  height: 45vh;
+  padding: 20px;
   
 }
 
@@ -372,7 +370,7 @@ button {
 }
 
 .rider-image{
-  width: 540px;
+  width: 50%;
   height: 45vh;
 }
 
@@ -393,10 +391,6 @@ footer{
     font-weight: bold;
     
 }
-
-
-
-
 
 
 
